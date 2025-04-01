@@ -5,6 +5,21 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.lease-agreement]
+path = 'contracts/lease-agreement.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.maintenance-request]
+path = 'contracts/maintenance-request.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.payment-automation]
+path = 'contracts/payment-automation.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.property-verification]
 path = 'contracts/property-verification.clar'
 clarity_version = 2
