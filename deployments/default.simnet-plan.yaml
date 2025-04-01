@@ -50,6 +50,21 @@ plan:
     - id: 0
       transactions:
         - emulated-contract-publish:
+            contract-name: lease-agreement
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/lease-agreement.clar
+            clarity-version: 2
+        - emulated-contract-publish:
+            contract-name: maintenance-request
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/maintenance-request.clar
+            clarity-version: 2
+        - emulated-contract-publish:
+            contract-name: payment-automation
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/payment-automation.clar
+            clarity-version: 2
+        - emulated-contract-publish:
             contract-name: property-verification
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/property-verification.clar
